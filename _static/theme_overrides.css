@@ -33,36 +33,38 @@
   font-weight: bold;
 }
 
-/* navigation bar: main upper bar color*/
+/* navigation bar: set header bar color*/
 .navbar {
   background: #afc991 !important;
   font-size: 1em;
 }
 
-/* navigation bar: text background color and text color when selected*/
-.navbar-nav > .active > .nav-link {
-  background-color: #e6eddf !important;
+/* navigation bar text color*/
+
+.navbar a {
+  color: white !important;
+  font-family: "Bitter", sans-serif;
+  margin-right: 10px;
+}
+
+
+/* navigation bar: text color of page titles when hovered*/
+.navbar a:hover {
   color: #2f401f !important;
-  font-weight: normal !important;
   transition-duration: 0.4s;
 }
 
-/* navigation bar: text color of active page when hovered*/
+/* navigation bar when hovered upon: text color and transition duration of active page when hovered*/
 .navbar-nav > .active > .nav-link:hover {
   color: #2f401f !important;
   transition-duration: 0.4s;
 }
 
-.navbar a {
-  color: white !important;
-  font-family: "Bitter", sans-serif;
-  transition-duration: 0.4s;
-  margin-right: 10px;
-}
-
-/* navigation bar: text color of page titles when hovered*/
-.navbar a:hover {
+/* navigation bar when selected: text background color and text color when section is selected*/
+.navbar-nav > .active > .nav-link {
+  background-color: #e6eddf !important;
   color: #2f401f !important;
+  font-weight: normal !important;
   transition-duration: 0.4s;
 }
 
@@ -110,14 +112,6 @@ a.external-link:after {
   content: ' \f35d';
   font-size: 0.5em;
   vertical-align: super;
-}
-
-p.card-reference {
-  margin: 2.75rem 0 1.05rem;
-  font-family: "Bitter", sans-serif;
-  font-weight: 400;
-  line-height: 1.15;
-  font-size: 1.1em;
 }
 
 /* header links */
